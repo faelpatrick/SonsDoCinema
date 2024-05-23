@@ -30,7 +30,8 @@ main {
     margin: 0px;
     padding: 30px;
     background-color: #050524;
-    height: 76vh;
+    /* height: 76vh; */
+    min-height: 76vh;
 }
 
 video {
@@ -46,19 +47,20 @@ img {
 a:visited {
     color: #99211D;
 }
- container {
+
+container {
     margin: 10px;
     color: #e7ac08;
- }
+}
 
- container h1 {
+container h1 {
     margin-top: 6px;
     margin-bottom: 12px;
- }
+}
 
- p {
+p {
     line-height: 1.5;
- }
+}
 
 artigos {
     display: flex;
@@ -71,7 +73,7 @@ article {
     text-align: justify;
     color: #e9dcdb;
     margin: 5rem 2rem;
-    box-shadow: 0px 0px 10px  #d89a25;
+    box-shadow: 0px 0px 10px #d89a25;
     padding: 2rem 2rem;
     border-radius: 10px;
     background-color: #000000;
@@ -85,6 +87,9 @@ article h1 {
     font-size: 30pt;
     color: #a11510;
 }
+
+
+/* testes */
 
 /* Mobile */
 @media screen and (max-width: 1024px) {
@@ -108,7 +113,7 @@ article h1 {
         width: 60%;
         margin: auto;
         display: block;
-        
+
     }
 
     iframe {
